@@ -14,4 +14,13 @@ can change the database configuration and aws configuration in config/conffile.j
 
 uses default aws iam user set in system
 
+creates db
+creates table
+insert dummy value
+creates dump file
+copies the content in json(config/folder.json) into backup dir
+compress backup folder and dump file into a zip file
+uploads to aws s3 bucket
+
+
 run the task.go file
